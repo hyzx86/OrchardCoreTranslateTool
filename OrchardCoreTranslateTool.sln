@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrchardCoreTranslateTool", "OrchardCoreTranslateTool\OrchardCoreTranslateTool.csproj", "{A02E9278-994E-4C81-8734-7B5120DE2BAF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OCTranslateTool", "OCTranslateTool\OCTranslateTool.csproj", "{2482F19E-AC45-411E-8E23-4DA1D220A49E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{A02E9278-994E-4C81-8734-7B5120DE2BAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A02E9278-994E-4C81-8734-7B5120DE2BAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A02E9278-994E-4C81-8734-7B5120DE2BAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2482F19E-AC45-411E-8E23-4DA1D220A49E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2482F19E-AC45-411E-8E23-4DA1D220A49E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2482F19E-AC45-411E-8E23-4DA1D220A49E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2482F19E-AC45-411E-8E23-4DA1D220A49E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
