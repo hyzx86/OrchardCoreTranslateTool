@@ -28,7 +28,7 @@ namespace OrchardCoreTranslateTool
 //                fileName = "zh-CN.po";
 //                path = @"C:\Users\hyzx8\Source\Repos\OrchardCore\OrchardCore";
 //#else
-                Console.WriteLine("Please input po file name:");
+                Console.WriteLine("Please input po file name（jst like zh-CN.po）:");
                 fileName = Console.ReadLine();
                 if (File.Exists(fileName))
                 {
