@@ -1,0 +1,20 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: orchard-core\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /OrchardCore/OrchardCore.Data.pot\n"
+"Project-Id-Version: orchard-core\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Last-Translator: agriffard <agriffard@hotmail.com>\n"
+"Language-Team: Chinese Simplified\n"
+"Language: zh_CN\n"
+"PO-Revision-Date: 2019-01-12 15:54\n"
+
+#. throw new Exception(T["Error while running migration version {Version} for '{FeatureName}'.", current, featureId], ex);
+#: OrchardCore.Data\Migration\DataMigrationManager.cs:230
+msgctxt "OrchardCore.Data.Migration.DataMigrationManager"
+msgid "Error while running migration version {Version} for '{FeatureName}'."
+msgstr "为 \"{FeatureName}\" 运行迁移版本 {Version} 时出错。"
+

@@ -1,0 +1,230 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: orchard-core\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /OrchardCore.Modules/OrchardCore.Layers.pot\n"
+"Project-Id-Version: orchard-core\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Last-Translator: agriffard <agriffard@hotmail.com>\n"
+"Language-Team: Chinese Simplified\n"
+"Language: zh_CN\n"
+"PO-Revision-Date: 2019-01-12 15:54\n"
+
+#. .Add(T["Configuration"], configuration => configuration
+#: OrchardCore.Layers\AdminMenu.cs:25
+msgctxt "OrchardCore.Layers.AdminMenu"
+msgid "Configuration"
+msgstr "配置"
+
+#. .Add(T["Settings"], settings => settings
+#: OrchardCore.Layers\AdminMenu.cs:26
+msgctxt "OrchardCore.Layers.AdminMenu"
+msgid "Settings"
+msgstr "设置"
+
+#. .Add(T["Layers"], T["Layers"], layers => layers
+#. .Add(T["Layers"], T["Layers"], layers => layers
+#. .Add(T["Layers"], T["Layers"], layers => layers
+#. .Add(T["Layers"], T["Layers"], layers => layers
+#: OrchardCore.Layers\AdminMenu.cs:27
+#: OrchardCore.Layers\AdminMenu.cs:27
+#: OrchardCore.Layers\AdminMenu.cs:33
+#: OrchardCore.Layers\AdminMenu.cs:33
+msgctxt "OrchardCore.Layers.AdminMenu"
+msgid "Layers"
+msgstr "Layers"
+
+#. .Add(T["Content"], content => content
+#: OrchardCore.Layers\AdminMenu.cs:32
+msgctxt "OrchardCore.Layers.AdminMenu"
+msgid "Content"
+msgstr "内容"
+
+#. <label asp-for="LayerMetadata.Title">@T["Title"] <span asp-validation-for="LayerMetadata.Title"></span></label>
+#: OrchardCore.Layers\Views\LayerMetadata.Edit.cshtml:4
+msgctxt "OrchardCore.Layers.Views.LayerMetadata.Edit"
+msgid "Title"
+msgstr "标题"
+
+#. <input asp-for="LayerMetadata.RenderTitle" type="checkbox" class="form-check-input content-preview-select" checked="@Model.LayerMetadata.RenderTitle" /> @T["Render title"]
+#: OrchardCore.Layers\Views\LayerMetadata.Edit.cshtml:10
+msgctxt "OrchardCore.Layers.Views.LayerMetadata.Edit"
+msgid "Render title"
+msgstr "渲染标题"
+
+#. <span class="hint">@T["— If checked, the title will be rendered with the widget."]</span>
+#: OrchardCore.Layers\Views\LayerMetadata.Edit.cshtml:11
+msgctxt "OrchardCore.Layers.Views.LayerMetadata.Edit"
+msgid "— If checked, the title will be rendered with the widget."
+msgstr "-如果选中, 标题将与小部件一起呈现。"
+
+#. <label asp-for="LayerMetadata.Layer">@T["The layer the widget should be associated with."]</label>
+#: OrchardCore.Layers\Views\LayerMetadata.Edit.cshtml:16
+msgctxt "OrchardCore.Layers.Views.LayerMetadata.Edit"
+msgid "The layer the widget should be associated with."
+msgstr "构件应与之关联的图层。"
+
+#. <label asp-for="Zones">@T["Available zones for Layers"] <span asp-validation-for="Zones"></span></label>
+#: OrchardCore.Layers\Views\LayerSettings.Edit.cshtml:4
+msgctxt "OrchardCore.Layers.Views.LayerSettings.Edit"
+msgid "Available zones for Layers"
+msgstr "层的可用区域"
+
+#. <span class="hint">@T["A comma separated list of values, representing the available zones for widgets."]</span>
+#: OrchardCore.Layers\Views\LayerSettings.Edit.cshtml:6
+msgctxt "OrchardCore.Layers.Views.LayerSettings.Edit"
+msgid "A comma separated list of values, representing the available zones for widgets."
+msgstr "一个逗号分隔的值列表, 表示小部件的可用区域。"
+
+#. <h1>@RenderTitleSegments(T["Create Layer"])</h1>
+#: OrchardCore.Layers\Views\Admin\Create.cshtml:3
+msgctxt "OrchardCore.Layers.Views.Admin.Create"
+msgid "Create Layer"
+msgstr "创建图层"
+
+#. <label asp-for="Name">@T["Name"] <span asp-validation-for="Name"></span></label>
+#: OrchardCore.Layers\Views\Admin\Create.cshtml:7
+msgctxt "OrchardCore.Layers.Views.Admin.Create"
+msgid "Name"
+msgstr "名称"
+
+#. <label asp-for="Rule">@T["Rule"] <span asp-validation-for="Rule"></span></label>
+#: OrchardCore.Layers\Views\Admin\Create.cshtml:12
+msgctxt "OrchardCore.Layers.Views.Admin.Create"
+msgid "Rule"
+msgstr "规则"
+
+#. <label asp-for="Description">@T["Description"] <span asp-validation-for="Description"></span></label>
+#: OrchardCore.Layers\Views\Admin\Create.cshtml:17
+msgctxt "OrchardCore.Layers.Views.Admin.Create"
+msgid "Description"
+msgstr "描述"
+
+#. <input class="button" type="submit" value="@T["Create"]" />
+#: OrchardCore.Layers\Views\Admin\Create.cshtml:21
+msgctxt "OrchardCore.Layers.Views.Admin.Create"
+msgid "Create"
+msgstr "创建"
+
+#. <h1>@RenderTitleSegments(T["Edit Layer - {0}", Model.Name])</h1>
+#: OrchardCore.Layers\Views\Admin\Edit.cshtml:3
+msgctxt "OrchardCore.Layers.Views.Admin.Edit"
+msgid "Edit Layer - {0}"
+msgstr "编辑层- {0}"
+
+#. <label asp-for="Name">@T["Name"] <span asp-validation-for="Name"></span></label>
+#: OrchardCore.Layers\Views\Admin\Edit.cshtml:7
+msgctxt "OrchardCore.Layers.Views.Admin.Edit"
+msgid "Name"
+msgstr "名称"
+
+#. <label asp-for="Rule">@T["Rule"] <span asp-validation-for="Rule"></span></label>
+#: OrchardCore.Layers\Views\Admin\Edit.cshtml:12
+msgctxt "OrchardCore.Layers.Views.Admin.Edit"
+msgid "Rule"
+msgstr "规则"
+
+#. <label asp-for="Description">@T["Description"] <span asp-validation-for="Description"></span></label>
+#: OrchardCore.Layers\Views\Admin\Edit.cshtml:17
+msgctxt "OrchardCore.Layers.Views.Admin.Edit"
+msgid "Description"
+msgstr "描述"
+
+#. <input class="button" type="submit" value="@T["Save"]" />
+#: OrchardCore.Layers\Views\Admin\Edit.cshtml:21
+msgctxt "OrchardCore.Layers.Views.Admin.Edit"
+msgid "Save"
+msgstr "保存"
+
+#. <h1>@RenderTitleSegments(T["Edit Widget Layers"])</h1>
+#: OrchardCore.Layers\Views\Admin\Index.cshtml:14
+msgctxt "OrchardCore.Layers.Views.Admin.Index"
+msgid "Edit Widget Layers"
+msgstr "编辑构件层"
+
+#. @T["Widget successfully moved. <a href=\"javascript:console.log('submit');$('#undo-form').submit();\"><strong>Undo</strong></a>."]
+#: OrchardCore.Layers\Views\Admin\Index.cshtml:21
+msgctxt "OrchardCore.Layers.Views.Admin.Index"
+msgid "Widget successfully moved. <a href=\"javascript:console.log('submit');$('#undo-form').submit();\"><strong>Undo</strong></a>."
+msgstr "部件已成功移动。 <a href=\"javascript:console.log('submit');$('#undo-form').submit();\"><strong>撤消</strong></a>。"
+
+#. <h3>@T["Zones"]</h3>
+#: OrchardCore.Layers\Views\Admin\Index.cshtml:30
+msgctxt "OrchardCore.Layers.Views.Admin.Index"
+msgid "Zones"
+msgstr "州/省/地区"
+
+#. @T["Add Widget"]
+#: OrchardCore.Layers\Views\Admin\Index.cshtml:65
+msgctxt "OrchardCore.Layers.Views.Admin.Index"
+msgid "Add Widget"
+msgstr "添加部件"
+
+#. <h3>@T["Layers"]</h3>
+#: OrchardCore.Layers\Views\Admin\Index.cshtml:88
+msgctxt "OrchardCore.Layers.Views.Admin.Index"
+msgid "Layers"
+msgstr "图层"
+
+#. <span class="hint">@T["Select a layer to reveal its associated widgets."]</span>
+#: OrchardCore.Layers\Views\Admin\Index.cshtml:90
+msgctxt "OrchardCore.Layers.Views.Admin.Index"
+msgid "Select a layer to reveal its associated widgets."
+msgstr "选择一个图层以显示其关联的小部件。"
+
+#. <a class="btn btn-primary btn-sm" href="@Url.Action("Edit", "Admin", new { area = "OrchardCore.Layers", name = layer.Name })">@T["Edit"]</a>
+#: OrchardCore.Layers\Views\Admin\Index.cshtml:99
+msgctxt "OrchardCore.Layers.Views.Admin.Index"
+msgid "Edit"
+msgstr "编辑"
+
+#. <a class="btn btn-danger btn-sm" href="@Url.Action("Delete", "Admin", new { area = "OrchardCore.Layers", name = layer.Name })" itemprop="RemoveUrl UnsafeUrl">@T["Delete"]</a>
+#: OrchardCore.Layers\Views\Admin\Index.cshtml:100
+msgctxt "OrchardCore.Layers.Views.Admin.Index"
+msgid "Delete"
+msgstr "删除"
+
+#. <p class="alert alert-warning">@T["Please <a href=\"{0}\">create a layer</a> before adding Widgets", Url.Action("Create", "Admin", new { area = "OrchardCore.Layers" })]</p>
+#: OrchardCore.Layers\Views\Admin\Index.cshtml:117
+msgctxt "OrchardCore.Layers.Views.Admin.Index"
+msgid "Please <a href=\"{0}\">create a layer</a> before adding Widgets"
+msgstr "请 <a href=\"{0}\">在添加小部件之前创建一个层</a>"
+
+#. <a class="button btn-sm" href="@Url.Action("Create", "Admin", new { area = "OrchardCore.Layers" })">@T["Add"]</a>
+#: OrchardCore.Layers\Views\Admin\Index.cshtml:120
+msgctxt "OrchardCore.Layers.Views.Admin.Index"
+msgid "Add"
+msgstr "添加"
+
+#. <h5>@T["All Layers"]</h5>
+#: OrchardCore.Layers\Views\Items\AllLayersDeploymentStep.Edit.cshtml:3
+msgctxt "OrchardCore.Layers.Views.Items.AllLayersDeploymentStep.Edit"
+msgid "All Layers"
+msgstr "全部图层"
+
+#. <h5>@T["All Layers"]</h5>
+#: OrchardCore.Layers\Views\Items\AllLayersDeploymentStep.Summary.cshtml:3
+msgctxt "OrchardCore.Layers.Views.Items.AllLayersDeploymentStep.Summary"
+msgid "All Layers"
+msgstr "全部图层"
+
+#. <span class="hint">@T["Adds all layers to the plan."]</span>
+#: OrchardCore.Layers\Views\Items\AllLayersDeploymentStep.Summary.cshtml:5
+msgctxt "OrchardCore.Layers.Views.Items.AllLayersDeploymentStep.Summary"
+msgid "Adds all layers to the plan."
+msgstr "将所有图层添加到计划中。"
+
+#. <h4 class="card-title">@T["All Layers"]</h4>
+#: OrchardCore.Layers\Views\Items\AllLayersDeploymentStep.Thumbnail.cshtml:3
+msgctxt "OrchardCore.Layers.Views.Items.AllLayersDeploymentStep.Thumbnail"
+msgid "All Layers"
+msgstr "全部图层"
+
+#. <p>@T["Exports all layers."]</p>
+#: OrchardCore.Layers\Views\Items\AllLayersDeploymentStep.Thumbnail.cshtml:4
+msgctxt "OrchardCore.Layers.Views.Items.AllLayersDeploymentStep.Thumbnail"
+msgid "Exports all layers."
+msgstr "导出所有层。"
+

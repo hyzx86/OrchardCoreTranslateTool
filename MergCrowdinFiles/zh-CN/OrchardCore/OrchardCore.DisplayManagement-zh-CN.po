@@ -1,0 +1,110 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: orchard-core\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /OrchardCore/OrchardCore.DisplayManagement.pot\n"
+"Project-Id-Version: orchard-core\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Last-Translator: agriffard <agriffard@hotmail.com>\n"
+"Language-Team: Chinese Simplified\n"
+"Language: zh_CN\n"
+"PO-Revision-Date: 2019-01-12 15:54\n"
+
+#. return Html.Raw(Html.Encode(T["1 year ago", "{0} years ago", time.TotalYears(), time.TotalYears()].Value));
+#: OrchardCore.DisplayManagement\Shapes\DateTimeShapes.cs:40
+msgctxt "OrchardCore.DisplayManagement.Shapes.DateTimeShapes"
+msgid "1 year ago"
+msgstr "一年前"
+
+#. return Html.Raw(Html.Encode(T["in 1 year", "in {0} years", -time.TotalYears(), -time.TotalYears()].Value));
+#: OrchardCore.DisplayManagement\Shapes\DateTimeShapes.cs:42
+msgctxt "OrchardCore.DisplayManagement.Shapes.DateTimeShapes"
+msgid "in 1 year"
+msgstr "在1年内"
+
+#. return Html.Raw(Html.Encode(T["1 month ago", "{0} months ago", time.TotalMonths(), time.TotalMonths()].Value));
+#: OrchardCore.DisplayManagement\Shapes\DateTimeShapes.cs:45
+msgctxt "OrchardCore.DisplayManagement.Shapes.DateTimeShapes"
+msgid "1 month ago"
+msgstr "1个月前"
+
+#. return Html.Raw(Html.Encode(T["in 1 month", "in {0} months", -time.TotalMonths(), -time.TotalMonths()].Value));
+#: OrchardCore.DisplayManagement\Shapes\DateTimeShapes.cs:47
+msgctxt "OrchardCore.DisplayManagement.Shapes.DateTimeShapes"
+msgid "in 1 month"
+msgstr "在1月内"
+
+#. return Html.Raw(Html.Encode(T["1 week ago", "{0} weeks ago", time.TotalWeeks(), time.TotalWeeks()].Value));
+#: OrchardCore.DisplayManagement\Shapes\DateTimeShapes.cs:50
+msgctxt "OrchardCore.DisplayManagement.Shapes.DateTimeShapes"
+msgid "1 week ago"
+msgstr "1 周前"
+
+#. return Html.Raw(Html.Encode(T["in 1 week", "in {0} weeks", -time.TotalWeeks(), -time.TotalWeeks()].Value));
+#: OrchardCore.DisplayManagement\Shapes\DateTimeShapes.cs:52
+msgctxt "OrchardCore.DisplayManagement.Shapes.DateTimeShapes"
+msgid "in 1 week"
+msgstr "1周内"
+
+#. return Html.Raw(Html.Encode(T["1 day ago", "{0} days ago", time.Days, time.Days].Value));
+#: OrchardCore.DisplayManagement\Shapes\DateTimeShapes.cs:55
+msgctxt "OrchardCore.DisplayManagement.Shapes.DateTimeShapes"
+msgid "1 day ago"
+msgstr "1天前"
+
+#. return Html.Raw(Html.Encode(T["in 1 day", "in {0} days", -time.Days, -time.Days].Value));
+#: OrchardCore.DisplayManagement\Shapes\DateTimeShapes.cs:57
+msgctxt "OrchardCore.DisplayManagement.Shapes.DateTimeShapes"
+msgid "in 1 day"
+msgstr "1 天内"
+
+#. return Html.Raw(Html.Encode(T["1 hour ago", "{0} hours ago", time.Hours, time.Hours].Value));
+#: OrchardCore.DisplayManagement\Shapes\DateTimeShapes.cs:60
+msgctxt "OrchardCore.DisplayManagement.Shapes.DateTimeShapes"
+msgid "1 hour ago"
+msgstr "1小时前"
+
+#. return Html.Raw(Html.Encode(T["in 1 hour", "in {0} hours", -time.Hours, -time.Hours].Value));
+#: OrchardCore.DisplayManagement\Shapes\DateTimeShapes.cs:62
+msgctxt "OrchardCore.DisplayManagement.Shapes.DateTimeShapes"
+msgid "in 1 hour"
+msgstr "1小时内"
+
+#. return Html.Raw(Html.Encode(T["1 minute ago", "{0} minutes ago", time.Minutes, time.Minutes].Value));
+#: OrchardCore.DisplayManagement\Shapes\DateTimeShapes.cs:65
+msgctxt "OrchardCore.DisplayManagement.Shapes.DateTimeShapes"
+msgid "1 minute ago"
+msgstr "1分钟前"
+
+#. return Html.Raw(Html.Encode(T["in 1 minute", "in {0} minutes", -time.Minutes, -time.Minutes].Value));
+#: OrchardCore.DisplayManagement\Shapes\DateTimeShapes.cs:67
+msgctxt "OrchardCore.DisplayManagement.Shapes.DateTimeShapes"
+msgid "in 1 minute"
+msgstr "在1分钟内"
+
+#. return Html.Raw(Html.Encode(T["1 second ago", "{0} seconds ago", time.Seconds, time.Seconds].Value)); //aware that the singular won't be used
+#: OrchardCore.DisplayManagement\Shapes\DateTimeShapes.cs:70
+msgctxt "OrchardCore.DisplayManagement.Shapes.DateTimeShapes"
+msgid "1 second ago"
+msgstr "1秒前"
+
+#. return Html.Raw(Html.Encode(T["in 1 second", "in {0} seconds", -time.Seconds, -time.Seconds].Value));
+#: OrchardCore.DisplayManagement\Shapes\DateTimeShapes.cs:72
+msgctxt "OrchardCore.DisplayManagement.Shapes.DateTimeShapes"
+msgid "in 1 second"
+msgstr "在 1 秒内"
+
+#. ? Html.Raw(Html.Encode(T["a moment ago", "a moment ago", 0]))
+#: OrchardCore.DisplayManagement\Shapes\DateTimeShapes.cs:75
+msgctxt "OrchardCore.DisplayManagement.Shapes.DateTimeShapes"
+msgid "a moment ago"
+msgstr "片刻前"
+
+#. : Html.Raw(Html.Encode(T["in a moment", "in a moment", 0]));
+#: OrchardCore.DisplayManagement\Shapes\DateTimeShapes.cs:76
+msgctxt "OrchardCore.DisplayManagement.Shapes.DateTimeShapes"
+msgid "in a moment"
+msgstr "在某一时刻"
+

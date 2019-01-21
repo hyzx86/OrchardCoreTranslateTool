@@ -1,0 +1,178 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: orchard-core\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /OrchardCore.Modules/OrchardCore.Settings.pot\n"
+"Project-Id-Version: orchard-core\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Last-Translator: agriffard <agriffard@hotmail.com>\n"
+"Language-Team: Chinese Simplified\n"
+"Language: zh_CN\n"
+"PO-Revision-Date: 2019-01-12 15:54\n"
+
+#. builder.Add(T["Configuration"], configuration => configuration
+#: OrchardCore.Settings\AdminMenu.cs:23
+msgctxt "OrchardCore.Settings.AdminMenu"
+msgid "Configuration"
+msgstr "配置"
+
+#. .Add(T["Settings"], "1", settings => settings
+#: OrchardCore.Settings\AdminMenu.cs:24
+msgctxt "OrchardCore.Settings.AdminMenu"
+msgid "Settings"
+msgstr "设置"
+
+#. .Add(T["General"], T["General"], entry => entry
+#. .Add(T["General"], T["General"], entry => entry
+#: OrchardCore.Settings\AdminMenu.cs:25
+#: OrchardCore.Settings\AdminMenu.cs:25
+msgctxt "OrchardCore.Settings.AdminMenu"
+msgid "General"
+msgstr "常规"
+
+#. <label asp-for="SiteName">@T["Site name"] <span asp-validation-for="SiteName"></span></label>
+#: OrchardCore.Settings\Views\Settings.Edit.cshtml:6
+msgctxt "OrchardCore.Settings.Views.Settings.Edit"
+msgid "Site name"
+msgstr "站点名称："
+
+#. <span class="hint">@T["The site name."]</span>
+#: OrchardCore.Settings\Views\Settings.Edit.cshtml:8
+msgctxt "OrchardCore.Settings.Views.Settings.Edit"
+msgid "The site name."
+msgstr "网站名"
+
+#. <label asp-for="BaseUrl">@T["Base url"] <span asp-validation-for="BaseUrl"></span></label>
+#: OrchardCore.Settings\Views\Settings.Edit.cshtml:12
+msgctxt "OrchardCore.Settings.Views.Settings.Edit"
+msgid "Base url"
+msgstr "基础Url"
+
+#. <span class="hint">@T["Enter the fully qualified base URL of the web site."]</span>
+#: OrchardCore.Settings\Views\Settings.Edit.cshtml:14
+msgctxt "OrchardCore.Settings.Views.Settings.Edit"
+msgid "Enter the fully qualified base URL of the web site."
+msgstr "输入该网站的完整基 URL。"
+
+#. <label asp-for="TimeZone">@T["Default Time Zone"] <span asp-validation-for="TimeZone"></span></label>
+#: OrchardCore.Settings\Views\Settings.Edit.cshtml:19
+msgctxt "OrchardCore.Settings.Views.Settings.Edit"
+msgid "Default Time Zone"
+msgstr "默认的时区"
+
+#. <option value="">@T["Local to server"]</option>
+#: OrchardCore.Settings\Views\Settings.Edit.cshtml:21
+msgctxt "OrchardCore.Settings.Views.Settings.Edit"
+msgid "Local to server"
+msgstr "本地服务器"
+
+#. <span class="hint">@T["Determines the default time zone used when displaying and editing dates and times."]</span>
+#: OrchardCore.Settings\Views\Settings.Edit.cshtml:29
+msgctxt "OrchardCore.Settings.Views.Settings.Edit"
+msgid "Determines the default time zone used when displaying and editing dates and times."
+msgstr "确定在显示和编辑日期时间时的默认时区。"
+
+#. <label asp-for="Culture">@T["Default Culture"] <span asp-validation-for="Culture"></span></label>
+#: OrchardCore.Settings\Views\Settings.Edit.cshtml:33
+msgctxt "OrchardCore.Settings.Views.Settings.Edit"
+msgid "Default Culture"
+msgstr "默认文化"
+
+#. <option value="">@T["System ({0} | {1})", CultureInfo.InstalledUICulture.Name, CultureInfo.InstalledUICulture.DisplayName]</option>
+#: OrchardCore.Settings\Views\Settings.Edit.cshtml:35
+msgctxt "OrchardCore.Settings.Views.Settings.Edit"
+msgid "System ({0} | {1})"
+msgstr "系统({0} | {1})"
+
+#. <span class="hint">@T["Determines the default culture used"]</span>
+#: OrchardCore.Settings\Views\Settings.Edit.cshtml:43
+msgctxt "OrchardCore.Settings.Views.Settings.Edit"
+msgid "Determines the default culture used"
+msgstr "确定使用的默认文化"
+
+#. <p>@Html.ActionLink(T["Add or remove supported cultures for the site"].Value, "Culture")</p>
+#: OrchardCore.Settings\Views\Settings.Edit.cshtml:44
+msgctxt "OrchardCore.Settings.Views.Settings.Edit"
+msgid "Add or remove supported cultures for the site"
+msgstr "添加或删除站点支持的区域性"
+
+#. <button class="primaryAction btn btn-primary" type="submit">@T["Save"]</button>
+#: OrchardCore.Settings\Views\SiteSettings.SaveButton.cshtml:1
+msgctxt "OrchardCore.Settings.Views.SiteSettings.SaveButton"
+msgid "Save"
+msgstr "保存"
+
+#. <a id="button-cancel" href="@returnUrl" class="btn btn-secondary">@T["Cancel"]</a>
+#: OrchardCore.Settings\Views\SiteSettings.SaveButton.cshtml:8
+msgctxt "OrchardCore.Settings.Views.SiteSettings.SaveButton"
+msgid "Cancel"
+msgstr "取消"
+
+#. <h1>@RenderTitleSegments(T["Settings"])</h1>
+#: OrchardCore.Settings\Views\Admin\Culture.cshtml:4
+msgctxt "OrchardCore.Settings.Views.Admin.Culture"
+msgid "Settings"
+msgstr "设置"
+
+#. <p class="breadcrumb">@Html.ActionLink(T["Manage Settings"].Value, "Index", "Admin", new { area = "OrchardCore.Settings", groupId = "general" })@T[" &#62; "]@T["Supported Cultures"]</p>
+#: OrchardCore.Settings\Views\Admin\Culture.cshtml:6
+msgctxt "OrchardCore.Settings.Views.Admin.Culture"
+msgid "Manage Settings"
+msgstr "管理设置"
+
+#. 
+#: OrchardCore.Settings\Views\Admin\Culture.cshtml:0
+msgctxt "OrchardCore.Settings.Views.Admin.Culture"
+msgid " &#62; "
+msgstr "&#62;"
+
+#. 
+#: OrchardCore.Settings\Views\Admin\Culture.cshtml:0
+msgctxt "OrchardCore.Settings.Views.Admin.Culture"
+msgid "Supported Cultures"
+msgstr "支持的区域性"
+
+#. <h3>@T["Available Cultures"]</h3>
+#: OrchardCore.Settings\Views\Admin\Culture.cshtml:7
+msgctxt "OrchardCore.Settings.Views.Admin.Culture"
+msgid "Available Cultures"
+msgstr "可用的区域性"
+
+#. <label for="CultureName">@T["Add a culture..."]</label>
+#: OrchardCore.Settings\Views\Admin\Culture.cshtml:13
+msgctxt "OrchardCore.Settings.Views.Admin.Culture"
+msgid "Add a culture..."
+msgstr "添加区域性..."
+
+#. <label for="CultureName">@T["Other"]:</label>
+#: OrchardCore.Settings\Views\Admin\Culture.cshtml:24
+msgctxt "OrchardCore.Settings.Views.Admin.Culture"
+msgid "Other"
+msgstr "其它"
+
+#. <button class="btn btn-primary" type="submit">@T["Add"]</button>
+#: OrchardCore.Settings\Views\Admin\Culture.cshtml:30
+msgctxt "OrchardCore.Settings.Views.Admin.Culture"
+msgid "Add"
+msgstr "添加"
+
+#. <h3>@T["Cultures this site supports"]</h3>
+#: OrchardCore.Settings\Views\Admin\Culture.cshtml:35
+msgctxt "OrchardCore.Settings.Views.Admin.Culture"
+msgid "Cultures this site supports"
+msgstr "此网站支持的区域性"
+
+#. <h1>@RenderTitleSegments(T["Settings"])</h1>
+#: OrchardCore.Settings\Views\Admin\Index.cshtml:3
+msgctxt "OrchardCore.Settings.Views.Admin.Index"
+msgid "Settings"
+msgstr "设置"
+
+#. <button type="submit" class="btn btn-link" title="@T["Delete"]">
+#: OrchardCore.Settings\Views\Shared\DisplayTemplates\RemovableCulture.cshtml:15
+msgctxt "OrchardCore.Settings.Views.Shared.DisplayTemplates.RemovableCulture"
+msgid "Delete"
+msgstr "删除"
+
